@@ -101,6 +101,15 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+# == Quick access aliases for tree command
+alias tr1='tree -L 1'
+alias tr2='tree -L 2'
+alias tr3='tree -L 3'
+alias tr4='tree -L 4'
+
+# == Command to reload this ~/.bashrc
+alias reload='source ~/.bashrc'
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
