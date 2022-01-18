@@ -123,4 +123,14 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="twploop" value="&lt;?php if(have_posts()) :?&gt;&#10;&#9;&lt;?php while(have_posts()) : the_post();?&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;?php endwhile;?&gt;&#10;&lt;?php else :?&gt;&#10;&#9;&#10;&lt;?php endif;?&gt;" description="wodpress loop with php tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="wploop" value="if(have_posts()) :&#10;&#9;while(have_posts()) : the_post();&#10;&#9;&#9;$END$&#10;&#9;endwhile;&#10;else :&#10;&#9;&#10;endif;" description="wodpress loop with php tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
