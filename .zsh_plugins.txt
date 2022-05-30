@@ -1,0 +1,7 @@
+# oh-my-zsh
+ohmyzsh/ohmyzsh
+
+zsh-users/zsh-autosuggestions
+JoshuaBedford/lando-zsh
+webflo/drush_zsh_completion
+greymd/docker-zsh-completion
