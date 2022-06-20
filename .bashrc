@@ -111,3 +111,6 @@ export PATH="$PATH:$HOME/.rvm/bin:$HOME/.local/bin"
 alias config='/usr/bin/git --git-dir=/home/nlediet/.dotfiles/ --work-tree=/home/nlediet'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Pomodoneapp
+export LD_LIBRARY_PATH\=$LD_LIBRARY_PATH:/opt/PomoDoneApp/usr/lib/x86_64-linux-gnu

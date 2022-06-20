@@ -18,7 +18,7 @@ npm() {
 }
 # Reset the yarn command to just be normal npm call
 yarn() {
-	command "$0" "$@"
+	~/.nvm/versions/node/$(node -v)/bin/yarn "$@"
 }
 # Configure zsh-users/zsh-autosuggestions
 zmodload zsh/zpty
